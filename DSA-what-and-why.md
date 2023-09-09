@@ -13,7 +13,7 @@ tree, Graphs, etc.
 Data structure and algorithm go hand in hand. We use a data structure to store data, and use algorithms
 to manipulate that data.
 
-DS & Alfo help you become a better programmer in general.
+DS & Algo help you become a better programmer in general.
 
 ## Why learn DS & Algo
 
