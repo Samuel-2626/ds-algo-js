@@ -10,14 +10,14 @@ function findFirstNonRepeatingCharacter(str) {
     for (let i = 0; i < str.length; i = i + 2) {
 
         if (i === str.length - 1) {
-            return null
+            return null;
         } else if (str[i] !== str[i + 1]) {
             return str[i];
         }        
 
     }
 
-    return null
+    return null;
 
 }
 
