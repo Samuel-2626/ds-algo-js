@@ -6,9 +6,12 @@
 
 function findFirstNonRepeatingCharacter(str) {
 
+
     for (let i = 0; i < str.length; i = i + 2) {
 
-        if (str[i] !== str[i + 1]) {
+        if (i === str.length - 1) {
+            return null
+        } else if (str[i] !== str[i + 1]) {
             return str[i];
         }        
 
@@ -18,4 +21,4 @@ function findFirstNonRepeatingCharacter(str) {
 
 }
 
-console.log(findFirstNonRepeatingCharacter("hello world"));
+console.log(findFirstNonRepeatingCharacter("aabccdeff"));
