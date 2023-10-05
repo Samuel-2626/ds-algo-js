@@ -8,8 +8,7 @@ In most recursive functions, we break the problem down into smaller instances an
 
 When we call a function it gets added to what we call the call stack and when it comes to returning values, there's a concept called `unwinding`.
 
-At first glance, recursion and iteration (loops) seem to be very similar. They both can be used to solve the same problems, but there are some differences between them. There are also pros and cons to
-both.
+At first glance, recursion and iteration (loops) seem to be very similar. They both can be used to solve the same problems, but there are some differences between them. There are also pros and cons to both.
 
 When using recursion, you're adding function calls to the call stack, and that takes up memory and can affect performance. Iteration doesn't because you aren't adding function instances. So that's one pro for iteration over recursion.
 

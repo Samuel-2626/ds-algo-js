@@ -19,3 +19,19 @@ function sumUpTo(n) {
 
 }
 ```
+
+`sumUpTo(5)`
+
+__The call stack__
+
+- *5 = 1 => sumUpTo(1)
+- *4 = 2 + *5 => sumUpTo(2)
+- *3 = 3 + *4 => sumUpTo(3)
+- *2 = 4 + *3 => sumUpTo(4)
+- *1 = 5 + *2 => sumUpTo(5)
+
+__Unwinding (LIFO)__
+
+1 + *4 (2 + 1) + *3 (3 + 2 + 1) + *2 (4 + 3 + 2 + 1) + *1 (5 + 4 + 3 + 2 + 1)
+
+__Therefore:__ => sumUpTo(5) = *1 = (5 + 4 + 3 + 2 + 1) = 15.
