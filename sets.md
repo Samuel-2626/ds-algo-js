@@ -10,7 +10,9 @@ To create a set, we use the new Keyword and the Set() constructor.
 
 We can also pass an array to the Set() constructor.
 
-To add data to a set, we use the has() method.
+To add data to a set, we use the add() method.
+
+To check for a value in a set, we use the has() method.
 
 To delete data from a set, we use the delete() method.
 
