@@ -4,7 +4,7 @@ A tree is a data structure that represents a hierarchical relationship between e
 
 ## Some terminologies
 
-- __Nodes:__ Each node in a tree contains data or information and can have zero or more child nodes. Nodes are connected by edges, representing the relationships between them.
+__Nodes:__ Each node in a tree contains data or information and can have zero or more child nodes. Nodes are connected by edges, representing the relationships between them.
 
 __Root:__ The root of a tree is the topmost node and serves as the starting point for traversing the tree. It does not have any parent nodes but may have child nodes.
 
