@@ -14,7 +14,7 @@ class Node {
 function depthFirstTraversal(root) {
 
     if (!root) {
-        return [];
+        return []
     }
 
     const result = []
@@ -22,10 +22,9 @@ function depthFirstTraversal(root) {
 
     stack.push(root)
 
-
     while (stack.length > 0) {
         const current = stack.pop()
-        result.push(current.data) 
+        result.push(current.data)
 
         if (current.right) {
             stack.push(current.right)
